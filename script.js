@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     yesBtn.addEventListener('click', function() {
         if (noClicked) {
-            messageDiv.textContent = "Yay! You said yes! ❤️";
+            messageDiv.textContent = "Yay! You said yes! ❤️ pak u ulol 👎";
             noBtn.style.display = 'none';
             yesBtn.style.display = 'none';
         } else {
@@ -37,3 +37,4 @@ document.addEventListener('DOMContentLoaded', function() {
         noBtn.style.top = randomY + 'px';
     }
 });
+
